@@ -5,6 +5,7 @@
   "name": "api-simples",
   "version": "1.0.0",
   "main": "api-simples.js",
+  "type": "module",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

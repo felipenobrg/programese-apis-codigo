@@ -1,10 +1,12 @@
 import express from 'express';
-var app = express();
+const app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World!', 200);
+  res.send('Deu errado!', 404);
 });
 
+app.post('/criarUsuario')
+
 app.listen(3000, function () {
-  console.log('Rodando na porta 3000');
+  console.log('Servidor rodando na porta 3000');
 });

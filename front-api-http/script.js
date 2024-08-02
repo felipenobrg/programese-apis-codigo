@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.deleteUser = async (id) => {
     if (confirm('Você tem certeza que deseja deletar este usuário?')) {
       try {
-        const response = await fetch(`http://localhost:3001/delete/${id}`, {
+        const response = await fetch(`http://localhost:3001/deletarUsuario/${id}`, {
           method: 'DELETE',
         });
 

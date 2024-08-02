@@ -8,7 +8,7 @@ function fetchUsers() {
             userList.innerHTML = ''; 
             data.forEach(user => {
                 const listItem = document.createElement('li');
-                listItem.textContent = `${user.name} (${user.email})`;
+                listItem.textContent = `${user.name} (${user.email} ${user.phone})`;
                 // ${user.email}
                 userList.appendChild(listItem);
             });
